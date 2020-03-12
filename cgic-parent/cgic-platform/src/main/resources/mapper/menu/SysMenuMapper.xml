@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.cgic.platform.menu.mapper.SysMenuMapper">
+    <resultMap id="baseResultMap" type="org.cgic.platform.menu.dto.SysMenu" extends="com.pubud.commons.mapper.StdMapper.STD">
+        <id column="MENU_ID" property="menuId" jdbcType="DECIMAL"/>
+        <id column="RESOURCE_ID" property="resourceId" jdbcType="DECIMAL"/>
+        <id column="PARENT_ID" property="parentId" jdbcType="DECIMAL"/>
+        <id column="MENU_ORDER" property="menuOrder" jdbcType="DECIMAL"/>
+        <result column="MENU_CODE" property="menuCode" jdbcType="VARCHAR"/>
+        <result column="MENU_NAME" property="menuName" jdbcType="VARCHAR"/>
+        <result column="DESCRIPTION" property="description" jdbcType="VARCHAR"/>
+        <result column="IS_ENABLED" property="isEnabled" jdbcType="VARCHAR"/>
+
+        <!--<result column="OBJECT_VERSION_NUMBER" property="objectVersionNumber" jdbcType="DECIMAL"/>-->
+        <!--<result column="CREATION_DATE" property="creationDate" jdbcType="DATE"/>-->
+        <!--<result column="CREATED_BY" property="createdBy" jdbcType="DECIMAL"/>-->
+        <!--<result column="LAST_UPDATED_BY" property="lastUpdatedBy" jdbcType="DECIMAL"/>-->
+        <!--<result column="LAST_UPDATE_DATE" property="lastUpdateDate" jdbcType="TIMESTAMP"/>-->
+    </resultMap>
+
+
+
+</mapper>

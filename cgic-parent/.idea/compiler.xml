@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cgic-gateway" />
+        <module name="cgic-oauth" />
+        <module name="cgic-platform" />
+        <module name="cgic-register" />
+        <module name="cgic-test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cgic-gateway" target="1.8" />
+      <module name="cgic-oauth" target="1.8" />
+      <module name="cgic-parent" target="1.8" />
+      <module name="cgic-platform" target="1.8" />
+      <module name="cgic-register" target="1.8" />
+      <module name="cgic-test" target="1.8" />
+      <module name="commons-core" target="1.8" />
+      <module name="gateway-helper" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

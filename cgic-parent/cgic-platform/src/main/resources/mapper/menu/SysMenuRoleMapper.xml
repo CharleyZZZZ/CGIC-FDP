@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.cgic.platform.menu.mapper.SysMenuRoleMapper">
+    <resultMap id="baseResultMap" type="org.cgic.platform.menu.dto.SysMenuRole" extends="com.pubud.commons.mapper.StdMapper.STD">
+        <id column="USER_ID" property="userId" jdbcType="DECIMAL"/>
+        <result column="USERNAME" property="username" jdbcType="VARCHAR"/>
+
+        <!--<result column="OBJECT_VERSION_NUMBER" property="objectVersionNumber" jdbcType="DECIMAL"/>-->
+        <!--<result column="CREATION_DATE" property="creationDate" jdbcType="DATE"/>-->
+        <!--<result column="CREATED_BY" property="createdBy" jdbcType="DECIMAL"/>-->
+        <!--<result column="LAST_UPDATED_BY" property="lastUpdatedBy" jdbcType="DECIMAL"/>-->
+        <!--<result column="LAST_UPDATE_DATE" property="lastUpdateDate" jdbcType="TIMESTAMP"/>-->
+    </resultMap>
+
+
+
+</mapper>

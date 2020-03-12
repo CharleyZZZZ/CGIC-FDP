@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cgic-gateway/cgic-gateway.iml" filepath="$PROJECT_DIR$/cgic-gateway/cgic-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cgic-oauth/cgic-oauth.iml" filepath="$PROJECT_DIR$/cgic-oauth/cgic-oauth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cgic-parent.iml" filepath="$PROJECT_DIR$/cgic-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cgic-platform/cgic-platform.iml" filepath="$PROJECT_DIR$/cgic-platform/cgic-platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cgic-register/cgic-register.iml" filepath="$PROJECT_DIR$/cgic-register/cgic-register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cgic-test/cgic-test.iml" filepath="$PROJECT_DIR$/cgic-test/cgic-test.iml" />
+    </modules>
+  </component>
+</project>

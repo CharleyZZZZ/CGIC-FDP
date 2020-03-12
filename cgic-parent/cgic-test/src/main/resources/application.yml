@@ -1,0 +1,43 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: cgic-test
+  datasource:
+      url: jdbc:mysql://localhost:3306/pubud?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+      username: root
+      password: Password1!
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    database: 4
+    host: 127.0.0.1
+    port: 6379
+    pool:
+      max-active: 8
+      max-wait: 8
+      min-idle: 0
+      max-idle: 8
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+  instance:
+    instance-id: cgic-test
+    prefer-ip-address: true
+
+mybatis:
+  config-location: classpath:mybatis-config.xml
+  mapper-locations: classpath:mapper/*Mapper.xml
+
+mapper:
+  mappers: org.cgic.commons.mapper.BaseMapper
+
+security:
+  basic:
+    enabled: false
+
+cgic:
+  commons:
+    jwt-token-filter: true

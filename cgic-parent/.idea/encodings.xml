@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgic-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgic-oauth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgic-platform" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgic-register" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cgic-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commons-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../commons-core" charset="UTF-8" />
+  </component>
+</project>

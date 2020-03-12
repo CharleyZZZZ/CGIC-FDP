@@ -1,0 +1,36 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/pubud?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: Password1!
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  application:
+    name: cgic-platform
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+mapper:
+  mappers: com.pubud.commons.mapper.BaseMapper
+logging:
+  level:
+    com:
+      putech:
+        oauth:
+          mapper: debug
+server:
+  port: 8010
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+  instance:
+    instance-id: cgic-platform
+    prefer-ip-address: true
+
+info:
+  app.name: cgic-platform-microservice
+
+#token-filter
+cgic:
+  commons:
+    jwt-token-filter: false
